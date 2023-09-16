@@ -42,3 +42,6 @@ A summary of all the columns present in the dataset:
 32. System S/N: System Serial Number <br/> **Attribute Type**: Nominal $\hspace{3cm}$ **Null count**: 78948 <br/> **Unique value count**: 61
 33. Model Number: Model Number of Charging Equipment <br/> **Attribute Type**: Nominal $\hspace{3cm}$ **Null count**: 78948 <br/> **Unique value count**: 10
 
+
+## **Data Visualizations and insights through EDA**
+
