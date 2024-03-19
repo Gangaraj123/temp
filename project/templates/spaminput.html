@@ -1,0 +1,30 @@
+{% extends 'userbase.html' %}
+{% load static %}
+
+{% block contents %}
+<section class="py-0" id="header">
+  <div class="bg-holder d-none d-md-block" style="background-image:url({% static 'images/hero-header.png' %}); background-position:right top; background-size:contain;"></div>
+  <!--/.bg-holder-->
+  <div class="container">
+    <div class="row align-items-center min-vh-75 min-vh-lg-100">
+      <div class="col-md-7 col-lg-6 col-xxl-5 py-6 text-sm-start text-center">
+        <div class="login">
+          <form action="/spamreport/" method="post">
+            {% csrf_token %}
+            <h2>To Access Live Cam Click Submit</h2>
+            <br>
+            <!--<input type="file" name="enter" accept="image/*">-->
+            <br><br><input type="submit" value="submit">
+            
+          </form>
+        </div>
+    
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    
+{% endblock %}
+
