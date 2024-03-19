@@ -1,0 +1,10 @@
+Django
+django_pandas
+gTTS
+keras
+moviepy
+numpy
+opencv_python
+pandas
+tensorflow
+tensorflow_intel
